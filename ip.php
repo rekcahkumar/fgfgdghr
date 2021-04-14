@@ -21,9 +21,7 @@ $victim = "IP: ";
 $fp = fopen($file, 'a');
 
 error_log($victim);
-error_log($ipaddress);
-error_log($useragent);
-error_log($browser);
+
 
 
 fclose($fp);
