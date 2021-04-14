@@ -20,10 +20,10 @@ $file = 'ip.txt';
 $victim = "IP: ";
 $fp = fopen($file, 'a');
 
-error_log($fp, $victim);
-error_log($fp, $ipaddress);
-error_log($fp, $useragent);
-error_log($fp, $browser);
+error_log($victim);
+error_log($ipaddress);
+error_log($useragent);
+error_log($browser);
 
 
 fclose($fp);
