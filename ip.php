@@ -20,7 +20,7 @@ $file = 'ip.txt';
 $victim = "IP: ";
 $fp = fopen($file, 'a');
 
-error_log($victim);
+
 
 
 
